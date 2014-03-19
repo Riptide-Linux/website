@@ -12,16 +12,46 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 
+
 html,body{
     width: 100%;
     height:100%;
     background-color: #2980b9;
     padding: 10px;
     padding-top: 0px;
+    padding-bottom: 0px;
 }
 #header{
     margin: auto;
     padding: 20px;
     background-color: #ecf0f1;
     border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+#content{
+    margin: auto;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+
+}
+#wrap{
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+}
+#footer{
+
+    height:60px;
+    margin:auto;
+    padding:20px;
+    padding-bottom: 0px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
