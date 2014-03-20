@@ -34,7 +34,6 @@ html,body{
     padding: 20px;
     background-color: #ecf0f1;
     border-radius: 10px;
-
 }
 #wrap{
     min-height: 100%;
@@ -54,4 +53,29 @@ html,body{
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+}
+ul{
+    text-align: center;
+    float:left;
+    width:100%;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+li{
+    display: inline;
+    font-size: 1.5em;
+}
+a{
+    width:6em;
+    text-decoration:none;
+    color:#2c3e50;
+    background-color:activecaption;
+    padding:0.2em 0.6em;
+    border-right:1px solid white;
+    border-radius: 5px;
+}
+a:hover {
+    background-color:#34495e;
+    color: white;
 }
