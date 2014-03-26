@@ -14,12 +14,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 
 
 html,body{
+    font-family: 'Hammersmith One', sans-serif; ;
+    background-color: #2980b9;
     width: 100%;
     height:100%;
-    background-color: #2980b9;
     padding: 10px;
     padding-top: 0px;
     padding-bottom: 0px;
+    
+}
+#container{
+    width: 900px;
+    margin:auto;
 }
 #header{
     margin: auto;
@@ -28,6 +34,17 @@ html,body{
     border-radius: 10px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+}
+#logo{
+    margin:auto;
+    text-align: center;
+    width:350px;
+    border: 1px solid black;
+
+}
+#menu{
+padding-top: 20px;
+
 }
 #content{
     margin: auto;
@@ -42,6 +59,7 @@ html,body{
     margin: 0 auto -60px;
     /* Pad bottom by footer height */
     padding: 0 0 60px;
+
 }
 #footer{
 
