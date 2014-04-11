@@ -17,8 +17,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 html,body{
     font-family: 'Hammersmith One', sans-serif; ;
     background-color: #2980b9;
-
-
 }
 
 header{
@@ -33,16 +31,12 @@ header{
 #logo{
     margin:0 auto;
     text-align: center;
-
 }
 #logo img{
     max-width:15em;
-
-
 }
 #menu{
     padding-top: 20px;
-
 }
 .content{
     margin: auto;
@@ -75,7 +69,7 @@ li{
     width:6em;
     text-decoration:none;
     color:#2c3e50;
-    background-color:activecaption;
+    background-color:#bdc3c7;
     padding:0.2em 0.6em;
     border-right:1px solid white;
     border-radius: 5px;
