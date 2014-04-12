@@ -39,8 +39,6 @@ header{
     padding-top: 20px;
 }
 .content{
-    margin: auto;
-    padding: 20px;
     background-color: #ecf0f1;
     border-radius: 10px;
 }
@@ -78,7 +76,9 @@ li{
     background-color:#34495e;
     color: white;
 }
-.col-xs-3{
-    margin-left: 2em;
-    clear: right;
+#main_content {
+    width: 65.66666667%; 
+}
+#right-sidebar{
+    margin-left: 1%;
 }
