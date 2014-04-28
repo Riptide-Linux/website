@@ -22,11 +22,13 @@ html,body{
 header{
     margin: auto;
     margin-top:0px;
-    padding: 20px;
     background-color: #ecf0f1;
     border-radius: 10px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+    padding-bottom: 25px;
+    
+    
 }
 #logo{
     margin:0 auto;
@@ -60,8 +62,9 @@ ul{
     list-style-type:none;
 }
 li{
-    display: inline;
+    display: inline-block;
     font-size: 1.5em;
+    
 }
 #menu a{
     width:6em;
@@ -81,4 +84,28 @@ li{
 }
 #right-sidebar{
     margin-left: 1%;
+}
+/*****************************************************
+            if width < 476px
+*****************************************************/
+@media screen and (max-width: 493px){
+#main_content {
+    width: 100%; 
+}
+#right-sidebar{
+    width:100%;
+    margin:10px 0 0 0;
+   
+}
+li {
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
+header{
+    padding-bottom: 55px;
+}
+#logo img{
+    max-width:10em;
+}
 }
