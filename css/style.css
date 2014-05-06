@@ -13,7 +13,9 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 
 
-
+/**{
+    border: 1px solid black;
+}*/
 html,body{
     font-family: 'Hammersmith One', sans-serif; ;
     background-color: #2980b9;
@@ -27,8 +29,8 @@ header{
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     padding-bottom: 25px;
-    
-    
+
+
 }
 #logo{
     margin:0 auto;
@@ -65,7 +67,7 @@ ul{
 li{
     display: inline-block;
     font-size: 1.5em;
-    
+
 }
 #menu a{
     width:6em;
@@ -91,23 +93,75 @@ li{
             if width < 511px
 *****************************************************/
 @media screen and (max-width: 511px){
-#main_content {
-    width: 100%; 
+    #main_content {
+        width: 100%; 
+        text-align: center;
+    }
+
+    #right-sidebar{
+        width:100%;
+        margin:10px 0 0 0;
+    }
+    li {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    header{
+        padding-bottom: 55px;
+    }
+    #logo img{
+        max-width:10em;
+    }
 }
-#right-sidebar{
-    width:100%;
-    margin:10px 0 0 0;
-   
-}
-li {
+/*****************************************************
+                        Team page
+*****************************************************/
+#team.col-xs-12.content{
+    padding:0px;
     display: inline-block;
-    margin-bottom: 10px;
-    
+    text-align: center;
 }
-header{
-    padding-bottom: 55px;
+#team .member{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #95a5a6;
+    border: 2px dashed #bdc3c7;
+    max-width:46.25%;
+    float: left;
+    font-size: 1.2em;
+    margin:2.5%;
+    padding-bottom: 20px;
 }
-#logo img{
-    max-width:10em;
+
+#team .member:nth-child(odd){
+    margin-right:2.5%; 
+    margin-left:1.25%;
 }
+#team .member:nth-child(even){ 
+    margin-right:1.25%; 
+    margin-left:2.5%;
+}
+#team .member:nth-child(3){
+    margin-top: 150px;
+    float: right;
+}
+#team .member:nth-child(1n+4){
+    margin-top: 0px;
+    float:left;
+}
+#team .member p{
+    display: inline-block;
+    margin:20px 0;
+}
+#team .member img{
+    border-radius: 100%;
+}
+#team .contact{
+    max-width: 50%;
+    margin:auto;
+    text-align: center;  
+}
+#team .contact img{
+    max-width: 50px;
+
 }

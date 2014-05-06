@@ -17,5 +17,9 @@
 $('html').hide();
 $(document).ready(function() {
     $('html').fadeIn(1000);
+
+});
+$('a').click(function() {
+    //todo: loading gif
 });
 
