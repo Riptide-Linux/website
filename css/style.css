@@ -125,7 +125,7 @@ li{
     display: inline-block;
     border-radius: 10px;
     background-color: #95a5a6;
-    border: 2px dashed #bdc3c7;
+
     max-width:46.25%;
     float: left;
     font-size: 1.2em;
@@ -146,7 +146,7 @@ li{
     float: right;
 }
 #team .member:nth-child(1n+4){
-    margin-top: 0px;
+    margin-top: -10px;
     float:left;
 }
 #team .member p{
@@ -154,7 +154,9 @@ li{
     margin:20px 0;
 }
 #team .member img{
+    width: 50%;
     border-radius: 100%;
+    margin: auto;
 }
 #team .contact{
     max-width: 50%;
@@ -162,6 +164,20 @@ li{
     text-align: center;  
 }
 #team .contact img{
-    max-width: 50px;
+    width: 50px;
+}
+@media screen and (max-width: 767px){
 
+    #team .member:nth-child(1n){
+        max-width: 100%;
+        margin:2.5%;
+    }
+    #team .member img{
+        width: 40%;
+        border-radius: 100%;
+        margin: auto;
+    }
+    #team .contact img{
+        width: 50px;
+    }
 }
