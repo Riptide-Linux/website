@@ -124,14 +124,17 @@ li{
 #team .member{
     display: inline-block;
     border-radius: 10px;
-    background-color: #95a5a6;
+    background-color: #bdc3c7;
     max-width:46.25%;
     float: left;
     font-size: 1.2em;
     margin:2.5%;
     padding-bottom: 20px;
+    
 }
-
+#team .member:hover{
+    background:hsl(0,0%,70%);
+}
 #team .member:nth-child(odd){
     margin-right:2.5%; 
     margin-left:1.25%;
