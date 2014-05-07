@@ -114,7 +114,6 @@ li{
 #team h1{
     font-size: 4em;
     margin: 50px 0 20px 0;
-    
 }
 #team.col-xs-12.content{
     padding:0px;
@@ -130,7 +129,6 @@ li{
     font-size: 1.2em;
     margin:2.5%;
     padding-bottom: 20px;
-    
 }
 #team .member:hover{
     background:hsl(0,0%,70%);
@@ -153,12 +151,18 @@ li{
 }
 #team .member p{
     display: inline-block;
-    margin:20px 0;
+    margin:20px 0 0 0;
 }
 #team .member img{
     width: 50%;
     border-radius: 100%;
     margin: auto;
+}
+#team .member h3{
+    margin:10px;
+}
+#team .member a{
+    text-decoration: none;
 }
 #team .contact{
     max-width: 50%;
