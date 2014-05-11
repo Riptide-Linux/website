@@ -14,10 +14,9 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-$('html').hide();
+$('body').hide();
 $(document).ready(function() {
-    $('html').fadeIn(1000);
-
+    $('body').fadeIn(1000);
 });
 $('a').click(function() {
     //todo: loading gif
