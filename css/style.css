@@ -168,8 +168,10 @@ li{
     max-width: 50%;
     margin:auto;
     text-align: center;  
+    display: inline;
 }
 #team .contact img{
+    
     width: 50px;
 }
 @media screen and (max-width: 767px){
