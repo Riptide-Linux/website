@@ -85,6 +85,9 @@ li{
     margin-left: 1%;
     text-align: center;
 }
+#push{
+    height:100px;
+}
 /*****************************************************
             if width < 511px
 *****************************************************/
@@ -171,7 +174,7 @@ li{
     display: inline;
 }
 #team .contact img{
-    
+
     width: 50px;
 }
 @media screen and (max-width: 767px){
